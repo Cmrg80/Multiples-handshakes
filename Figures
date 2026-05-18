@@ -1,1 +1,10 @@
+# Figures Directory
 
+This directory contains generated figures and plots for TLS benchmark analysis.
+
+Examples:
+
+- handshake latency comparison
+- TLS 1.2 vs TLS 1.3 throughput
+- RTT impact visualization
+- accumulated latency plots
