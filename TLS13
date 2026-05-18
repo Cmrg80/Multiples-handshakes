@@ -1,1 +1,26 @@
+# TLS 1.3 Benchmark
 
+This directory contains benchmark outputs and experiments for TLS 1.3 handshakes using OpenSSL.
+
+## Cipher Suite
+
+```bash
+TLS_AES_128_GCM_SHA256
+
+Benchmark Command
+
+openssl s_time -connect localhost:4433 -new -time 30 -tls1_3 -ciphersuites TLS_AES_128_GCM_SHA256
+
+Measured Metrics
+connections per second
+total handshakes
+computational overhead
+estimated RTT-adjusted latency
+Notes
+
+TLS 1.3 requires:
+
+TCP handshake → 1 RTT
+TLS handshake → 1 RTT
+
+Total: 2RTT
