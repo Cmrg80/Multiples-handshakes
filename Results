@@ -1,1 +1,11 @@
+Aquí van los resultados exportados.
 
+---
+
+## Archivo:
+```text
+benchmark_results.csv
+
+TLS,connections_per_sec,CPU_ms,Total_ms
+TLS1.3,1915.71,0.52,17.52
+TLS1.2,2164.69,0.46,34.46
