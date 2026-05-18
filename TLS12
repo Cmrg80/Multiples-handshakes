@@ -1,1 +1,26 @@
+# TLS 1.2 Benchmark
 
+This directory contains benchmark outputs and experiments for TLS 1.2 handshakes using OpenSSL.
+
+## Cipher Suite
+
+```bash
+ECDHE-RSA-AES128-GCM-SHA256
+
+Benchmark Command
+
+openssl s_time -connect localhost:4433 -new -time 30 -tls1_2 -cipher ECDHE-RSA-AES128-GCM-SHA256
+
+Measured Metrics
+connections per second
+total handshakes
+computational overhead
+estimated RTT-adjusted latency
+Notes
+
+TLS 1.2 requires:
+
+TCP handshake → 1 RTT
+TLS handshake → 2 RTT
+
+Total: 3 RTT
