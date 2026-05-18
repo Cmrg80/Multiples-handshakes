@@ -1,1 +1,10 @@
+# Data Directory
 
+This directory stores processed benchmark data used for analysis and visualization.
+
+Possible contents:
+
+- CSV benchmark exports
+- processed latency tables
+- statistical summaries
+- aggregated experiment results
