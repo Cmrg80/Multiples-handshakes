@@ -98,7 +98,7 @@ scheduler overhead
 This does not contradict TLS 1.3 design goals.
 
 Repository Structure
-.
+
 ├── benchmarks/
 │   ├── tls12/
 │   ├── tls13/
@@ -111,7 +111,7 @@ Repository Structure
 │   └── benchmark_results.csv
 ├── figures/
 ├── README.md
-└── .github/workflows/
+
 
 Requirements
 OpenSSL
