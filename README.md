@@ -105,7 +105,6 @@ Repository Structure\
 ├── benchmarks\
 │   ├── tls12\
 │   ├── tls13\
-│   └── results\
 ├── scripts\
 │   ├── benchmark.ps1\
 │   ├── benchmark.sh\
