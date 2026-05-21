@@ -1,0 +1,15 @@
+1. Install OpenSSL
+
+Download and install OpenSSL for Windows:
+
+https://slproweb.com/products/Win32OpenSSL.html
+
+Recommended version:
+Win64 OpenSSL Light
+
+2. Verify OpenSSL Installation
+
+Open CMD and run:
+"YouRoute\openssl.exe" version
+Expected output example:
+OpenSSL 3.x.x
