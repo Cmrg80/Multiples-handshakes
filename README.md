@@ -97,16 +97,16 @@ scheduler overhead
 
 This does not contradict TLS 1.3 design goals.
 
-Repository Structure
+Repository Structure\
 ├── SetUp\
 ├── benchmarks\
 │   ├── tls12\
 │   ├── tls13\
 │   └── results\
 ├── scripts\
-│   ├── benchmark.ps1
-│   ├── benchmark.sh
-│   └── parse_results.py
+│   ├── benchmark.ps1\
+│   ├── benchmark.sh\
+│   └── parse_results.py\
 ├── data\
 │   └── benchmark_results.csv
 ├── figures\
