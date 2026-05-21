@@ -12,4 +12,4 @@ Win64 OpenSSL Light
 Open CMD and run:
 "YouRoute\openssl.exe" version
 Expected output example:
-OpenSSL 3.x.x
+OpenSSL 4.x.x
