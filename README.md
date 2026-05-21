@@ -98,10 +98,9 @@ scheduler overhead
 This does not contradict TLS 1.3 design goals.
 
 Repository Structure\
-├── SetUp\
-|├── InstallOpenSSL\
-|├── SetUpServer\
-|├── VerifyServerConnection\
+│── SetUp\
+│├── InstallOpenSSL\
+│├── SetUpServer\
 ├── benchmarks\
 │   ├── tls12\
 │   ├── tls13\
