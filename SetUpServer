@@ -1,0 +1,29 @@
+Window 1 — SERVER
+
+Start TLS server:
+
+"YouRoute\openssl.exe" s_server -accept 4433 -cert cert.pem -key key.pem -groups P-256
+
+Expected output:
+
+Using default temp DH parameters
+
+ACCEPT
+
+Leave this window running during all tests.
+
+Window 2 — CLIENT
+
+Make a handshake:
+
+openssl s_client -connect localhost:4433
+
+If everything is ok:
+
+You will see handshake details
+Certificate
+Cypher algorithm 
+
+To go out:
+
+crtl + c
